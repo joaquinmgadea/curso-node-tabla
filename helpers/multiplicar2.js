@@ -11,7 +11,7 @@ const crearArchivo = async( base = 5, listar = false, hasta = 10 ) => {
 
         for(let i = 1; i <= hasta; i++) {
             salida += `${ base } x ${ i } = ${ base * i }\n`;
-            consola += `${ base } ${ 'x'.green } ${ 'i'.green } = ${ base * i }\n`;
+            consola += `${ base } ${ 'x'.green } ${ i } ${ '='.green } ${ base * i }\n`;
         }
         
         if( listar ) {
